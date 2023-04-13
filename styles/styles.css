@@ -1,0 +1,57 @@
+@import "./variables.css";
+@import "./reset.css";
+@import "./modern-normalize.css";
+
+.header {
+  display: flex;
+}
+
+.header_info-wrapper {
+  width: 70%;
+}
+
+.header_info-wrapper-name {
+  color: var(--main);
+  text-transform: uppercase;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.header_info-wrapper-specialty {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}
+
+.header_logo-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_logo-photo {
+  width: 256px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header_info-lists-wrapper {
+  display: flex;
+  paddin0px 0px;
+}
+
+.header_info-wrapper-contacts {
+  padding: 10px 0px;
+}
+
+.header_info-wrapper-contacts-item {
+  margin-bottom: 20px;
+}
+
+.header_info-wrapper-contacts-item:last-child {
+  margin-bottom: 0px;
+}
+
+.header_info-wrapper-contacts-link {
+  font-size: 20px;
+}
